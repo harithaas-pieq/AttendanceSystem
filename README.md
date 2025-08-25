@@ -78,5 +78,3 @@ Basically, this is what happens behind the scene:
 * Finally, Resource Layer returns a JSON response to the client
 
 ---
-
-If you want, I can also **add small headings or bullets in Request Flow and FINAL FLOW** so it looks even more structured and easy to skim. Do you want me to do that?
