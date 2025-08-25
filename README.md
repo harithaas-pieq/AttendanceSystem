@@ -51,6 +51,12 @@ Client (curl/postman/browser)
 
 * This contains the services or the core logic of the application. The resource class calls the classes defined in the service class, and the functions are executed.
 
+**Models**
+* This is how it gets stored in the DB
+
+**Requests**
+* This is how the client sends the request
+  
 **HealthCheck**
 
 * To see healthcheck, use: `http://localhost:6081/healthcheck`
