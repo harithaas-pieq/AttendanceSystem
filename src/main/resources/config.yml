@@ -1,0 +1,20 @@
+# config.yml - Dropwizard configuration for Attendance application
+
+server:
+  applicationConnectors:
+    - type: http
+      port: 6080
+  adminConnectors:
+    - type: http
+      port: 6081
+
+logging:
+  level: INFO
+  loggers:
+    io.dropwizard: INFO
+
+database:
+  driverClass: org.postgresql.Driver
+  user: postgres
+  password: postgres
+  url: jdbc:postgresql://localhost:5432/user_db
