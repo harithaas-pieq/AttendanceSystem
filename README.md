@@ -26,7 +26,7 @@ Client (curl/postman/browser)
 2. `initialize()` sets up JSON handling for Kotlin and Java Time.
 3. `run()` sets up the database, services, and REST resources.
 4. Resources handle HTTP requests, call services, which use DAOs to access the database.
-5. CORS and health checks are configured, and the server starts listening for requests.
+5. health checks are configured, and the server starts listening for requests.
 
 **AttendanceConfiguration.kt**
 
@@ -61,6 +61,23 @@ Client (curl/postman/browser)
 
 * To see healthcheck, use: `http://localhost:6081/healthcheck`
 * Healthcheck must use the admin port.
+  `{
+  "basic": {
+    "healthy": true,
+    "duration": 0,
+    "timestamp": "2025-08-25T18:48:27.010+05:30"
+  },
+  "deadlocks": {
+    "healthy": true,
+    "duration": 0,
+    "timestamp": "2025-08-25T18:48:27.011+05:30"
+  },
+  "postgresql": {
+    "healthy": true,
+    "duration": 20,
+    "timestamp": "2025-08-25T18:48:27.010+05:30"
+  }
+}`
 
 
 
