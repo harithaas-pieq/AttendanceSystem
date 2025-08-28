@@ -81,15 +81,15 @@ Client (curl/postman/browser)
 
 
 
-# RUNNING THE APPLICATION
+# Running the application
 
 1. Run Podman Desktop
 2. Make sure pgAdmin is executing
-3. Execute the command: `./gradlew run`
+3. Execute the command: `./gradlew run` in the terminal 
 
 
 
-# FINAL FLOW
+# Final Flow
 
 Basically, this is what happens behind the scene:
 
